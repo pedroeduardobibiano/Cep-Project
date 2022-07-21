@@ -1,3 +1,6 @@
+@import "modal.css";
+@import "buttons.css";
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -11,7 +14,7 @@ body {
 }
 .nav-container {
   height: 80px;
-  background-color: #ffcbcb;
+  background-color: #814444;
   width: 100%;
   padding: 0 20px;
   display: flex;
@@ -58,7 +61,7 @@ body {
 
 .error-message {
   margin-top: 5px;
-  color: #faa;
+  color: #814444;
 }
 
 .form-input {
@@ -76,36 +79,6 @@ body {
 .form-input:disabled {
   background-color: #ddd;
 }
-.btn-container {
-  display: flex;
-  justify-content: space-between;
-}
-.btn {
-  width: 250px;
-  height: 50px;
-  background-color: #ffcbcb;
-  border-radius: 4px;
-  border: 0;
-  color: #fff;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.btn-left {
-  margin-right: 10px;
-}
-.btn-right {
-  margin-left: 10px;
-}
-
-.list-container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .card-list-item {
   background-color: #333;
@@ -117,17 +90,17 @@ body {
   padding: 20px;
 }
 
-.card-list-item h3{
-  color: #ffcbcb;
+.card-list-item h3 {
+  color: #814444;
   font-size: 18px;
 }
 
-.adrress-line{
+.adrress-line {
   color: #fff;
   font-size: 14px;
 }
 
-.address-cep{
+.address-cep {
   color: #f8f8f8;
   font-size: 12px;
 }
